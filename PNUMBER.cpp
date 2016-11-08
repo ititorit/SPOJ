@@ -29,19 +29,19 @@ int main() {
     int l, r, j;
     cin >> l >> r;
     bool prime[maxx+5];
-    reset(prime, true)
+    reset(prime, true);
     prime[1]=false;
     _for(i,2,maxx) {
         if(prime[i]) {
-            j = 2*i;
+            j = i+i;
             while(j<=maxx) {
-                prime[i] = false;
+                prime[j] = false;
                 j+=i;
             }
         }
     }
     _for(i,l,r) {
-        if(prime[i]) { cout << i << ' '; }
+        if(prime[i]) { cout << i << '\n'; }
     }
     cout << '\n';
     // solution end....
