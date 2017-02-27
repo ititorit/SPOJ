@@ -1,6 +1,6 @@
 // author: Rentt ( ititorit )
 // link  : http://vn.spoj.com/problems/QMAX/
-// algo  : Interval Tree && Lazy Propagation algorithm
+// algo  : Interval Tree (Segment Tree) && Lazy Propagation algorithm
 
 #include <bits/stdc++.h>
 
