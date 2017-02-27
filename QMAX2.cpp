@@ -1,3 +1,7 @@
+// author : Rentt (ititorit)
+// Link   : http://vn.spoj.com/problems/QMAX2/
+// algo   : Interval Tree ( Segment Tree ) + Lazy propagation algortithm
+
 #include <bits/stdc++.h>
 
 using namespace std;
