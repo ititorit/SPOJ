@@ -1,3 +1,6 @@
+// Author : ititorit ( Rentt )
+// Link   : http://vn.spoj.com/problems/LITES/
+// algo   : Interval Tree ( Segment Tree ) + Lazy Propagation algorithm.
 #include <bits/stdc++.h>
  
 using namespace std;
